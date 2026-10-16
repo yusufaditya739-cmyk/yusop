@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studikasus3</title>
+  </head>
+  <body>
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap demo</title>
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+          crossorigin="anonymous"
+        />
+
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css"
+        />
+      </head>
+      <body>
+        <script
+          type="module"
+          src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+          crossorigin="anonymous"
+        ></script>
+      </body>
+    </html>
+    <nav class="navbar sm:navbar-expand bg-4 fg-1 fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <i class="bi bi-bluesky"></i> Point Coffee</a
+        >
+        <button
+          class="btn-icon navbar-toggler"
+          type="button"
+          data-bs-toggle="drawer"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+        <dialog
+          class="drawer drawer-end"
+          tabindex="-1"
+          id="navbarNav"
+          aria-labelledby="navbarNavLabel"
+        >
+          <div class="drawer-header">
+            <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="drawer"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="drawer-body">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ucup">Reservasi</a>
+              </li>
+            </ul>
+          </div>
+        </dialog>
+      </div>
+    </nav>
+
+    <section class="hero bg-2 py-12">
+      <div class="container py-12">
+        <div class="row g-6 align-items-center">
+          <div class="col-12 md:col-6">
+            <h1 class="font-body text-2xl fw-bold mb-4">
+              Crafted with passion, brewed with precision.
+            </h1>
+            <p class="text-md">
+              Point Coffee merupakan brand spesialisasi kopi dengan konsep “Made
+              to Order” yang menyajikan Fresh Quality Coffee. Dengan menggunakan
+              100% biji kopi asli Indonesia yang disajikan oleh barista terlatih
+              dengan mesin kopi standar internasional. Berdiri sejak tahun 2016,
+              dan kini sudah hadir tersedia di lebih dari 1.200 outlet di
+              seluruh Indonesia untuk mempermudah Point People menjangkau Point
+              Coffee
+            </p>
+            <a href="#ucup" type="button" class="btn-solid theme-inverse">
+              Pesan Meja
+            </a>
+            <a href="#menu" type="button" class="btn-outline theme-inverse">
+              Lihat Menu
+            </a>
+          </div>
+
+          <div class="col-12 md:col-6 text-center">
+            <img
+              src="https://pointcoffee.id/wp-content/uploads/elementor/thumbs/332517771_6418424104854022_4807012172609772416_n-1-ql3d1zyd7xy99dj77s1yuy989onf7f66aaxc01g8fc.png"
+              alt=""
+              class="w-50 rounded-6"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about py-12" id="about">
+      <section class="container py-12">
+        <div class="text-center fw-bold mb-6">
+          <h3 class="fg-2">About</h3>
+          <h2>Nikmati Kopi, Temani Hari</h2>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <p class="fs-lg" style="text-align: justify">
+              Point Coffee adalah brand kopi di Indonesia yang menawarkan
+              berbagai pilihan minuman kopi dan non-kopi dengan cita rasa nikmat
+              dan harga terjangkau. Dengan konsep *grab and go*, Point Coffee
+              memberikan kemudahan bagi pelanggan untuk menikmati kopi
+              berkualitas secara praktis dalam aktivitas sehari-hari.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="bg-2 py-12" id="menu">
+      <div class="container py-12">
+        <div class="text-center fw-bold mb-6">
+          <h3 class="fg-2">Menu</h3>
+          <h2>Nikmati kelezatan minuman yang Always on Point</h2>
+        </div>
+      </div>
+
+      <div class="row g-6">
+        <div class="col-12 md:col-4">
+          <div class="card h-100">
+            <img
+              src="https://th.bing.com/th/id/OIP.xk6TZXLPrgRRPlnexNQEmgHaHa?w=184&h=184&c=7&r=0&o=7&pid=1.7&rm=3"
+              class="card-img-top"
+              alt="..."
+              style="height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <p class="fw-bold fg-4">Iced Almond Latte</p>
+                <p class="fw-bold fg-succes">Rp 25.000</p>
+              </div>
+              <p class="card-text">
+                Minuman kopi dengan paduan rasa dan aroma gurih kacang almond
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 md:col-4">
+          <div class="card h-100">
+            <img
+              src="https://th.bing.com/th/id/OIP.NWIKpd3QQIUm0RlfsxppiAHaFj?w=184&h=138&c=7&r=0&o=7&pid=1.7&rm=3"
+              class="card-img-top"
+              alt="..."
+              style="height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <p class="fw-bold fg-4">Iced Caramel Maciato</p>
+                <p class="fw-bold fg-succes">Rp 25.000</p>
+              </div>
+              <p class="card-text">
+                Perpaduan antara kopi, susu segar dan rasa caramel yang creamy
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 md:col-4">
+          <div class="card h-100">
+            <img
+              src="data:image/webp;base64,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"
+              class="card-img-top"
+              alt="..."
+              style="height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <p class="fw-bold fg-4">Iced Pistachio Latte</p>
+                <p class="fw-bold fg-succes">Rp 25.000</p>
+              </div>
+              <p class="card-text">
+                Minuman kopi dengan perpaduan rasa dan aroma gurih kacang
+                pistachio
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 md:col-4">
+          <div class="card h-100">
+            <img
+              src="data:image/webp;base64,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"
+              class="card-img-top"
+              alt="..."
+              style="height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <p class="fw-bold fg-4">Hot Flat White</p>
+                <p class="fw-bold fg-succes">Rp 20.000</p>
+              </div>
+              <p class="card-text">
+                Dua shot espresso dengan susu steam yang lembut tanpa gula
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 md:col-4">
+          <div class="card h-100">
+            <img
+              src="data:image/webp;base64,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"
+              class="card-img-top"
+              alt="..."
+              style="height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <p class="fw-bold fg-4">Iced Long Black</p>
+                <p class="fw-bold fg-succes">Rp 25.000</p>
+              </div>
+              <p class="card-text">
+                Dua shot espresso dengan air dingin tanpa gula
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 md:col-4">
+          <div class="card h-100">
+            <img
+              src="data:image/webp;base64,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"
+              class="card-img-top"
+              alt="..."
+              style="height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <p class="fw-bold fg-4">Hot Mocha</p>
+                <p class="fw-bold fg-succes">Rp 20.000</p>
+              </div>
+              <p class="card-text">
+                Satu shot espresso dengan cokelat khas point coffee dan susu
+                steam
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-2 py-12"></section>
+
+    <section id="meja">
+      <div class="container" id="ucup">
+        <h4 class="text-center fw-bold fg-4">RESERVASI MEJA</h4>
+        <h2 class="text-center fw-bold">Amankan Tempat Faforit Anda</h2>
+        <p class="text-center fs-lg">
+          isi form berikut untuk melakukan pemesanan dengan cepat
+        </p>
+
+        <div class="row g-6 align-items-center">
+          <div class="col-12 md:col-4">
+            <form action="">
+            <label for="Nama" class="form-label mb-2">Nama Lengkap</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Nama"
+              placeholder="Nama Lengkap"
+            />
+
+            <label for="wa" class="form-label mb-2">Nomor WhatsApp</label>
+            <input
+              type="text"
+              class="form-control"
+              id="wa"
+              placeholder="Nomor WhatsApp"
+            />
+
+            <label for="tgl" class="form-label mb-2">Tanggal & Waktu</label>
+            <input type="datetime-local" class="form-control" id="tgl" />
+
+            <div class="form-field">
+              <label for="exampleFormControlSelect2" class="form-label"
+                >Jumlah Orang</label
+              >
+              <select class="form-control" id="exampleFormControlSelect2">
+                <option>Pilih Jumlah</option>
+                <option value="1">1 Orang</option>
+                <option value="2">2 Orang</option>
+                <option value="3">Lebih dari 5 Orang</option>
+              </select>
+            </div>
+            <button type="button" class="btn-solid theme-inverse mt-4">
+              Konfirmasi Reservasi
+            </button>
+          </div>
+          </form>
+
+          <div class="col-12 md:col-8">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63246.10973064007!2d110.31904220581058!3d-7.80233035773874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57003c8c8d2d%3A0x58ef2579b160b7a1!2sPoint%20Coffee%20Kusuma%20Negara%20114%20(TWZP)!5e0!3m2!1sid!2sid!4v1792049301859!5m2!1sid!2sid"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+              class="w-100 rounded-6"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-4 py-6">
+      <footer class="fs-md text-center">2026 | Yusuf Aditya Pratama</footer>
+    </section>
+  </body>
+</html>
